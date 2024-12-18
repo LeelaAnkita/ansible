@@ -18,7 +18,8 @@ sudo apt install python3-pip
 
  sudo apt install ansible
 
-Confirming your installation
+Confirming your installation
+----------------------------
 You can test that Ansible is installed correctly by checking the version:
 
 ansible --version
