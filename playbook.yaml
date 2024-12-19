@@ -14,3 +14,12 @@
         owner: root
         group: root
         mode: '0644'
+    - name: Install Ngnix
+      ansible.builtin.apt:
+        name: ngnix
+        state: present
+    - name: Start Ngnix
+      ansible.builtin.service:
+        name: ngnix
+        state: started
+        
