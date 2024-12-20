@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+   var: 20
+  tasks:
+- debug: msg="Variable 'var'  is set to {{ var }}"
